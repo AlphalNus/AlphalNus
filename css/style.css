@@ -1,0 +1,71 @@
+/*
+color/text
+backgroud-color
+
+make it curved
+hover
+transition
+*/
+
+.fancy-button{
+  color:#ffffff;
+  background-color:#dc5b5d;
+
+  font-size: 20px;
+  padding: 13px 20px;
+
+  border: none;
+  border-radius: 30px;
+
+  transition: background-color 250ms ease-in-out, margin 0.1s ease-in-out;
+}
+
+.fancy-button:hover{
+  background-color: black;
+  padding-top: 200px;
+}
+
+.hidden-thing{
+  display: none;
+  background-color: black;
+}
+
+body {
+  font-family:'PT Sans', sans-serif;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: none;
+  font-family:'PT Sans', sans-serif;
+  color: #C4C4C4;
+}
+
+.list-style {
+  font-family:'PT Sans', sans-serif;
+  color: #C4C4C4;
+  font-style: italic;
+}
+
+a:hover {
+  color: #FF4747;
+  transition: color 250ms ease-in-out, margin 0.1s ease-in-out;
+}
+
+a:active {
+  color: #193A48
+}
+
+h1 {
+  font-size: 300%;
+  text-align:center;
+}
+
+hr {
+  height:2.5px;
+  border-width:0;
+  color:gray;
+  background-color:black;
+  border: none;
+  border-radius: 3px
+}
