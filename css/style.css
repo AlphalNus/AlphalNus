@@ -74,6 +74,7 @@ hr {
   body{
     width: 100%;
     font-size: 100%;
+    display: flex;
   }
 }
 
@@ -81,5 +82,6 @@ hr {
   body{
     width: 50%;
     font-size:120%;
+    display: flex;
   }
 }
