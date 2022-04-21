@@ -98,7 +98,7 @@ hr {
     margin-right: auto;
   }
   .nav-bar {
-    display: inline;
+    display: inline-block;
     font-size:110%;
     background-color: #7C99C5;
     color: white;
@@ -133,7 +133,7 @@ hr {
   }
   .nav-bar {
     min-width: 400px;
-    display: inline;
+    display: inline-block;
     font-size:120%;
     background-color: #7C99C5;
     color: white;
