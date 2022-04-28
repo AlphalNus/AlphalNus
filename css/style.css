@@ -35,7 +35,10 @@ body {
 }
 
 p {
-  margin-left: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 90%;
 }
 
 a {
@@ -66,7 +69,7 @@ h1 {
 }
 
 img {
-  width: 500px;
+  width: 90%;
 }
 
 hr {
@@ -93,7 +96,7 @@ hr {
     text-align:left;
   }
   img{
-    width: 500px;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -128,15 +131,14 @@ hr {
     font-size: 100%;
   }
   img{
-    width: 500px;
+    width: 95%;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   .nav-bar {
-    min-width: 400px;
     display: inline-block;
-    font-size:120%;
+    font-size:100%;
     background-color: #7C99C5;
     color: white;
     text-align: center;
