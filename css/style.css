@@ -37,7 +37,6 @@ body {
 p {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5%;
   width: 90%;
 }
 
@@ -69,7 +68,7 @@ h1 {
 }
 
 img {
-  width: 90%;
+  width: 70%;
 }
 
 hr {
@@ -89,14 +88,14 @@ hr {
 @media screen and (min-width:801px){
   body{
     width: 100%;
-    font-size: 100%;
+    font-size: 150%;
     display: grid;
   }
   p{
     text-align:left;
   }
   img{
-    width: 90%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -108,7 +107,7 @@ hr {
     color: white;
     text-align: center;
     padding: 10px;
-    border: 5px;
+    border: 0px;
   }
   .nav-bar:hover {
     background-color: #8AA6B3;
@@ -143,7 +142,7 @@ hr {
     color: white;
     text-align: center;
     padding: 10px;
-    border: 5px;
+    border: 0px;
   }
   .nav-bar:hover {
     background-color: #8AA6B3;
@@ -161,6 +160,7 @@ hr {
 }
 .card-body {
   padding: 40px;
+
 }
 
 .btn:active {
