@@ -85,11 +85,25 @@ hr {
   text-align: left;
 }
 
+.nav-bar {
+  display: inline-block;
+  font-size:100%;
+  background-color: #7C99C5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 0px;
+}
+.nav-bar:hover {
+  background-color: #8AA6B3;
+}
+
+
 @media screen and (min-width:801px){
   body{
     width: 100%;
     font-size: 150%;
-    display: grid;
+    display: inline-block;
   }
   p{
     text-align:left;
@@ -118,7 +132,7 @@ hr {
   body{
     width: 70%;
     font-size:120%;
-    display: grid;
+    display: inline-block;
   }
   p{
     text-align:left;
